@@ -1,0 +1,85 @@
+body{
+    background: rgb(210, 214, 210);
+}
+
+.container{
+    width: 70%;
+    padding: 20px;
+    border: 1px solid 
+}
+
+header h1{
+    text-align: left;
+    color: rgb(148, 36, 58);
+    font-weight: bold;
+}
+header p{
+    text-align: left;
+    color: rgb(112, 48, 142);
+    font-weight: bold;
+}
+
+nav p{
+    color: black;
+    font-weight: bold;
+}
+
+section h2{
+    color: rgb(148, 36, 58);
+    font-weight: bold;
+}
+
+section p{
+    color: black;
+    font-weight: bold;
+}
+
+h3{
+    color: rgb(114, 47, 145);
+    font-weight: bold;
+}
+
+ul li{
+    color: rgb(114, 47, 145);
+    font-weight: bold;
+}
+
+form {
+    display:flex;
+    flex-direction:column;
+}
+
+input {
+    padding: 8px;
+    width: 30%;
+    border: 1px solid;
+}
+textarea {
+    padding: 8px;
+    width: 80%;
+    border: 1px solid;
+}
+
+button {
+    width:150px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background:#222 ;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+button:hover{
+       background: #444;
+}
+
+footer {
+    color: #1e1a1a;
+    padding:20px;
+    font-size: 15px;
+    text-align: end;
+}
+
+
